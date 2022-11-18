@@ -8,7 +8,10 @@ class CMyGame : public CGame
 	CSpriteList m_ola;
 	CSpriteList m_moneda;
 
+	CSpriteList m_roca1;
+	CSpriteList m_roca2;
 
+	int m_bscore;
 public:
 	CMyGame(void);
 	~CMyGame(void);
