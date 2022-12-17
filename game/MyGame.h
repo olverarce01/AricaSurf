@@ -5,8 +5,35 @@ class CMyGame : public CGame
 	// Define sprites and other instance variables here
 	CSprite m_sprite;	// Sample sprite
 	CSprite m_background;	// Sample sprite
-	CSpriteList m_ola;
+	CSpriteList m_ondas;
+	CSpriteList m_espuma;
+	CSpriteList m_nubes;
+	CSpriteList m_lanchas;
+
+
 	CSpriteList m_moneda;
+	CSprite m_morro;
+	CSprite m_rozeAgua;
+
+
+	CSprite m_scoreboard;
+	CSprite m_timer;
+	CSprite m_anillos;
+
+
+	int level=1;
+	CSprite menu;
+
+	CSprite c_sprite;
+	CSoundPlayer musica_juego; // Musica juego
+	CSoundPlayer musica_surf; // Musica juego
+
+	CSoundPlayer sonido_caida; // Sonido 
+	CSoundPlayer sonido_moneda; // Sonido 
+
+	CSoundPlayer sonido_surf;
+	CSpriteList m_roca; // Rocas 
+
 
 
 public:
